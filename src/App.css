@@ -1,0 +1,35 @@
+/* For WebKit browsers (Chrome, Safari, etc.) */
+.dark-mode ::-webkit-scrollbar {
+    width: 15px; /* Width of the scrollbar */
+}
+
+.dark-mode ::-webkit-scrollbar-track {
+    background: #1e1d1d; /* Dark mode track background */
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+    background-color: #ff0000; /* Red scrollbar for dark mode */
+    border-radius: 2px; /* Rounded corners */
+}
+
+.light-mode ::-webkit-scrollbar {
+    width: 15px; /* Width of the scrollbar */
+}
+
+.light-mode ::-webkit-scrollbar-track {
+    background: #f2f2f2; /* Light mode track background */
+}
+
+.light-mode ::-webkit-scrollbar-thumb {
+    background-color: #00f040; /* Yellow scrollbar for light mode */
+    border-radius: 2px; /* Rounded corners */
+}
+
+/* Firefox */
+.dark-mode * {
+    scrollbar-color: #4e4e4e #1e1d1d; /* Red thumb with dark track for dark mode */
+}
+
+.light-mode * {
+    scrollbar-color: #9E9E9E #f2f2f2; /* Yellow thumb with light gray background for light mode */
+}
